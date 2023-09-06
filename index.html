@@ -9,28 +9,64 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./assets/images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css" />
 
-    <title>Frontend Mentor | QR code component</title>
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
-    <div class="wrapper">
-      <div class="image">
-        <img src="images/image-qr-code.png" />
-      </div>
+    <div class="container">
+      <div class="results">
+        <h1>Your Result</h1>
+        <div class="score">
+        <span>76</span>
+        of 100
+        </div>
+        
 
-      <div class="title">
-        <h1>Improve your front-end skills by building projects</h1>
-      </div>
-
-      <div class="dec">
-        <p>
-          scan the QR code to visit Frontend mentor and take your coding skills
-          to the next level
+        <p class="great">Great</p>
+        <p class="better-than">
+          You scored higher than 65% of the people who have taken these tests.
         </p>
       </div>
+
+      <div class="summary">
+        <h1>Summary</h1>
+
+        <div class="subjects">
+          <div class="the-subject sub-1">
+            <div class="sub-name"><img src="assets/images/icon-reaction.svg" alt="">Reaction</div>
+            <div class="sub-score"><span>80</span> / 100</div>
+          </div>
+
+          <div class="the-subject sub-2">
+            <div class="sub-name"> <img src="assets/images/icon-memory.svg" alt="">Memory</div>
+            <div class="sub-score"><span>92</span> / 100</div>
+          </div>
+
+          <div class="the-subject sub-3">
+            <div class="sub-name"><img src="assets/images/icon-verbal.svg" alt="">Verbal</div>
+            <div class="sub-score"><span>61</span> / 100</div>
+          </div>
+
+          <div class="the-subject sub-4">
+            <div class="sub-name"><img src="assets/images/icon-visual.svg" alt="">Visual</div>
+            <div class="sub-score"><span>72</span> / 100</div>
+          </div>
+        </div>
+
+        <button class="btn">Continue</button>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://www.frontendmentor.io/profile/ManiNasih">ManiNasih</a>.
     </div>
   </body>
 </html>
