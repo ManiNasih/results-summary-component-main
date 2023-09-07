@@ -18,49 +18,52 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
-    <div class="container">
-      <div class="results">
-        <h1>Your Result</h1>
-        <div class="score">
-        <span>76</span>
-        of 100
+    <main>
+
+      <div class="container">
+        <div class="results">
+          <h1 class="results__title">Your Result</h1>
+          <div class="results__score--main">
+          <span>76</span>
+          of 100
+          </div>
+          
+  
+          <p class="how-good">Great</p>
+          <p class="how-good__compare">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
         </div>
-        
-
-        <p class="great">Great</p>
-        <p class="better-than">
-          You scored higher than 65% of the people who have taken these tests.
-        </p>
-      </div>
-
-      <div class="summary">
-        <h1>Summary</h1>
-
-        <div class="subjects">
-          <div class="the-subject sub-1">
-            <div class="sub-name"><img src="assets/images/icon-reaction.svg" alt="">Reaction</div>
-            <div class="sub-score"><span>80</span> / 100</div>
+  
+        <div class="summary">
+          <h2 class="summary__title">Summary</h2>
+  
+          <div class="summary__subjects">
+            <div class="subject subject--1">
+              <div class="subject__name--1"><img class="subject__icon subject__icon--1" src="assets/images/icon-reaction.svg" alt="">Reaction</div>
+              <div class="subject__score subject__score--1"><span>80</span> / 100</div>
+            </div>
+  
+            <div class="subject subject--2">
+              <div class="subject__name--2"> <img class="subject__icon subject__icon--2" src="assets/images/icon-memory.svg" alt="">Memory</div>
+              <div class="subject__score subject__score--2"><span>92</span> / 100</div>
+            </div>
+  
+            <div class="subject subject--3">
+              <div class="subject__name--3"><img class="subject__icon subject__icon--3" src="assets/images/icon-verbal.svg" alt="">Verbal</div>
+              <div class="subject__score subject__score--3"><span>61</span> / 100</div>
+            </div>
+  
+            <div class="subject subject--4">
+              <div class="subject__name--4"><img class="subject__icon subject__icon--4" src="assets/images/icon-visual.svg" alt="">Visual</div>
+              <div class="subject__score subject__score--4"><span>72</span> / 100</div>
+            </div>
           </div>
-
-          <div class="the-subject sub-2">
-            <div class="sub-name"> <img src="assets/images/icon-memory.svg" alt="">Memory</div>
-            <div class="sub-score"><span>92</span> / 100</div>
-          </div>
-
-          <div class="the-subject sub-3">
-            <div class="sub-name"><img src="assets/images/icon-verbal.svg" alt="">Verbal</div>
-            <div class="sub-score"><span>61</span> / 100</div>
-          </div>
-
-          <div class="the-subject sub-4">
-            <div class="sub-name"><img src="assets/images/icon-visual.svg" alt="">Visual</div>
-            <div class="sub-score"><span>72</span> / 100</div>
-          </div>
+  
+          <button class="button--continue">Continue</button>
         </div>
-
-        <button class="btn">Continue</button>
       </div>
-    </div>
+    </main>
 
     <div class="attribution">
       Challenge by
